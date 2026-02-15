@@ -1079,8 +1079,38 @@ h3 {
         left: 0;
     }
 
+    /* Hero Section Mobile */
+    .hero {
+        height: auto;
+        min-height: 100vh;
+        padding: var(--spacing-3xl) 0;
+    }
+
+    .hero-content {
+        padding: var(--spacing-xl) var(--spacing-md);
+    }
+
+    .hero-title {
+        font-size: 2rem;
+    }
+
+    .hero-subtitle {
+        font-size: 1rem;
+    }
+
     .search-bar {
         grid-template-columns: 1fr;
+        gap: var(--spacing-xs);
+        padding: var(--spacing-sm);
+    }
+
+    .search-field {
+        padding: var(--spacing-xs);
+    }
+
+    .btn {
+        padding: var(--spacing-sm);
+        font-size: 0.9rem;
     }
 
     .properties-grid {
